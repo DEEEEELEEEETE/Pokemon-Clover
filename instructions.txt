@@ -1,0 +1,24 @@
+This project is designed with armips.exe at the center, and will eventually include grit to compile images.
+
+HOW TO COMPILE STUFF
+1) Download a .zip of the repository and extract it. It'll automatically be named Pokemon-Clover-master.
+2) Put a CLEAN FireRed ROM in the main folder, and name it clover.gba.
+3) Apply base.ips to clover.gba
+4) Open your command prompt, navigate to Pokemon-Clover-master or whatever else you've renamed the folder to.
+5) Type armips.exe main.asm -sym offsets.txt, then hit enter.
+
+HOW TO ADD FILES
+When we get images, I'll create a folder called images, and two subfolders called pic and bin. Put pictures into pic, grit will compress those and put them in bin.
+
+Scripts that use our script_defines.asm file should be put in a folder called scripts, and ASM and C should go in a folder named source.
+
+ASM AND SCRIPT STYLE
+Comments are added through ;
+Instead of #org for scripts, use this style;
+    start:
+    call label
+    end
+    
+    label:
+    return
+.thumb is required at the top of every .asm file.
