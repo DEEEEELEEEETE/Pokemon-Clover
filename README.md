@@ -1,2 +1,4 @@
 # Pokemon-Clover
-/vp/'s pet project, Pokemon Clover, has moved to GitHub for easy testing and importing.
+[insert copypasta from the /vp/ thread]
+If you wish to contribute, read devs.txt, if you're just here to assemble the project, read armips readme.txt and attempt to fix things yourself.
+Current devs; Camerupt, Numel, Squeetz, DG_, Chemical Man, Ungracious, LeRuseBird, DrawingPad, FireB-, padz, and NewDenverCity.
